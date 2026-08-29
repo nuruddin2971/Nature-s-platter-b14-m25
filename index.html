@@ -19,21 +19,27 @@
   </head>
   <body>
     <header class="bg-[#EFEBE3]">
-      <nav class="grid grid-cols-3 items-center gap-4 w-11/12 mx-auto pt-4">
-        <img src="./assets/nav-logo.png" alt="" class="w-30 h-auto" />
-        <ul class="flex gap-4">
+      <nav class="grid grid-cols-3 items-center w-11/12 mx-auto pt-4">
+        <div class="w-30">
+          <img src="./assets/nav-logo.png" alt="" />
+        </div>
+
+        <ul class="flex gap-4 justify-center">
           <li><a href="">Product</a></li>
           <li><a href="">Services</a></li>
           <li><a href="">Contact us</a></li>
         </ul>
-        <div class="flex gap-4">
+
+        <div class="flex gap-4 items-center justify-end">
           <span><i class="fa-solid fa-magnifying-glass"></i></span>
           <span><i class="fa-solid fa-cart-shopping"></i></span>
+
           <button
             class="rounded border border-green-500 font-semibold cursor-pointer px-3 py-1"
           >
             Login
           </button>
+
           <button
             class="rounded bg-green-500 font-semibold text-white cursor-pointer px-3 py-1"
           >
@@ -42,7 +48,7 @@
         </div>
       </nav>
 
-      <section class="text-center py-15">
+      <section class="text-center pt-15">
         <div class="max-w-[40%] mx-auto">
           <h2 class="font-bold text-4xl mb-8">
             Freshness
@@ -64,5 +70,170 @@
         />
       </section>
     </header>
+    <main>
+      <!-- Service Section -->
+
+      <section class="w-11/12 mx-auto pt-20">
+        <h2 class="text-green-500 font-bold text-4xl mb-3">Services</h2>
+        <div class="grid grid-cols-3 gap-4">
+          <div class="bg-[#EFEBE3] text-center rounded-md p-4 space-y-4">
+            <div
+              class="bg-white rounded-full h-30 w-30 flex justify-center items-center p-4 mx-auto"
+            >
+              <img src="./assets/service.png" alt="" />
+            </div>
+            <h2 class="font-semibold text-2xl">24/7 Services</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+          </div>
+          <div class="bg-[#EFEBE3] text-center rounded-md p-4 space-y-4">
+            <div
+              class="bg-white rounded-full h-30 w-30 flex justify-center items-center p-4 mx-auto"
+            >
+              <img src="./assets/delivery.png" alt="" />
+            </div>
+            <h2 class="font-semibold text-2xl">Fast Delivery</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+          </div>
+          <div class="bg-[#EFEBE3] text-center rounded-md p-4 space-y-4">
+            <div
+              class="bg-white rounded-full h-30 w-30 flex justify-center items-center p-4 mx-auto"
+            >
+              <img src="./assets/products.png" alt="" />
+            </div>
+            <h2 class="font-semibold text-2xl">Healthy Products</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Popular Products Section -->
+
+      <section class="bg-[#EFEBE3] my-20">
+        <div class="w-11/12 mx-auto py-20">
+          <h2 class="text-green-500 font-bold text-4xl mb-3">
+            Popular Products
+          </h2>
+          <div class="grid grid-cols-12 gap-4">
+            <div
+              class="col-span-3 bg-linear-to-br from-lime-500 to-lime-200 p-6 space-y-4 rounded-md"
+            >
+              <h2 class="font-semibold text-2xl text-white">30% off</h2>
+              <p>
+                Discover a world of treats, toys, and essentials handpicked for
+              </p>
+              <button
+                class="rounded bg-white text-black font-semibold cursor-pointer px-3 py-1"
+              >
+                Buy Now
+              </button>
+
+              <img src="./assets/Mask group.png" alt="" class="-mt-25" />
+            </div>
+
+            <div class="col-span-9 grid grid-cols-3 gap-4">
+              <div class="flex gap-2 p-4 rounded-md bg-white">
+                <img src="./assets/onion.png" alt="" />
+                <div class="space-y-2">
+                  <span class="flex gap-2"
+                    ><img src="./assets/Vector.png" alt="" /> 4.5</span
+                  >
+                  <h2 class="font-bold text-shadow-md">Onion 1 KG</h2>
+                  <p>$39.99</p>
+                </div>
+              </div>
+              <div class="flex gap-2 p-4 rounded-md bg-white">
+                <img src="./assets/tomato.png" alt="" />
+                <div class="space-y-2">
+                  <span class="flex gap-2"
+                    ><img src="./assets/Vector.png" alt="" /> 4.5</span
+                  >
+                  <h2 class="font-bold text-shadow-md">Tomato 500 g</h2>
+                  <p>$39.99</p>
+                </div>
+              </div>
+              <div class="flex gap-2 p-4 rounded-md bg-white">
+                <img src="./assets/potato.png" alt="" />
+                <div class="space-y-2">
+                  <span class="flex gap-2"
+                    ><img src="./assets/Vector.png" alt="" /> 4.5</span
+                  >
+                  <h2 class="font-bold text-shadow-md">Potato 1 KG</h2>
+                  <p>$39.99</p>
+                </div>
+              </div>
+              <div class="flex gap-2 p-4 rounded-md bg-white">
+                <img src="./assets/tomato.png" alt="" />
+                <div class="space-y-2">
+                  <span class="flex gap-2"
+                    ><img src="./assets/Vector.png" alt="" /> 4.5</span
+                  >
+                  <h2 class="font-bold text-shadow-md">Tomato 500 g</h2>
+                  <p>$39.99</p>
+                </div>
+              </div>
+              <div class="flex gap-2 p-4 rounded-md bg-white">
+                <img src="./assets/onion.png" alt="" />
+                <div class="space-y-2">
+                  <span class="flex gap-2"
+                    ><img src="./assets/Vector.png" alt="" /> 4.5</span
+                  >
+                  <h2 class="font-bold text-shadow-md">Onion 1 KG</h2>
+                  <p>$39.99</p>
+                </div>
+              </div>
+              <div class="flex gap-2 p-4 rounded-md bg-white">
+                <img src="./assets/tomato.png" alt="" />
+                <div class="space-y-2">
+                  <span class="flex gap-2"
+                    ><img src="./assets/Vector.png" alt="" /> 4.5</span
+                  >
+                  <h2 class="font-bold text-shadow-md">Tomato 500 g</h2>
+                  <p>$39.99</p>
+                </div>
+              </div>
+              <div class="flex gap-2 p-4 rounded-md bg-white">
+                <img src="./assets/onion.png" alt="" />
+                <div class="space-y-2">
+                  <span class="flex gap-2"
+                    ><img src="./assets/Vector.png" alt="" /> 4.5</span
+                  >
+                  <h2 class="font-bold text-shadow-md">Onion 1 KG</h2>
+                  <p>$39.99</p>
+                </div>
+              </div>
+              <div class="flex gap-2 p-4 rounded-md bg-white">
+                <img src="./assets/potato.png" alt="" />
+                <div class="space-y-2">
+                  <span class="flex gap-2"
+                    ><img src="./assets/Vector.png" alt="" /> 4.5</span
+                  >
+                  <h2 class="font-bold text-shadow-md">Potato 1 KG</h2>
+                  <p>$39.99</p>
+                </div>
+              </div>
+              <div class="flex gap-2 p-4 rounded-md bg-white">
+                <img src="./assets/onion.png" alt="" />
+                <div class="space-y-2">
+                  <span class="flex gap-2"
+                    ><img src="./assets/Vector.png" alt="" class="" /> 4.5</span
+                  >
+                  <h2 class="font-bold text-shadow-md">Onion 1 KG</h2>
+                  <p>$39.99</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
